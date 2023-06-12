@@ -6,12 +6,12 @@ use LaravelEnso\Enums\Services\Enum;
 
 class PaymentMethods extends Enum
 {
-    public const Card = 1;
-    public const OnDelivery = 2;
-    public const Wire = 3;
-    public const PromissoryNote = 4;
-    public const Cash = 5;
-    public const Cheque = 6;
+    final public const Card = 1;
+    final public const OnDelivery = 2;
+    final public const Wire = 3;
+    final public const PromissoryNote = 4;
+    final public const Cash = 5;
+    final public const Cheque = 6;
 
     protected static array $data = [
         self::Card => 'Card',

@@ -31,5 +31,8 @@
                 "EnsoException": "LaravelEnso\\Helpers\\Exceptions\\EnsoException"
             }
         }
+    },
+    "require-dev": {
+        "rector/rector": "^0.17.0"
     }
 }

@@ -11,16 +11,13 @@ use LaravelEnso\Helpers\Exceptions\JsonParse;
 class JsonReader
 {
     private const Formats = ['object', 'array', 'json', 'collection', 'obj'];
+    private readonly bool $array;
+    private readonly bool $json;
+    private readonly bool $collection;
+    private readonly bool $obj;
 
-    private string $path;
-    private bool $array;
-    private bool $json;
-    private bool $collection;
-    private bool $obj;
-
-    public function __construct(string $path)
+    public function __construct(private readonly string $path)
     {
-        $this->path = $path;
         $this->array = false;
         $this->json = false;
         $this->collection = false;
@@ -65,7 +62,7 @@ class JsonReader
     {
         $json = $this->content();
 
-        $data = json_decode($json, $this->shouldDecodeToArray());
+        $data = json_decode($json, $this->shouldDecodeToArray(), 512, JSON_THROW_ON_ERROR);
 
         $this->validate();
 

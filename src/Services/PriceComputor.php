@@ -4,15 +4,13 @@ namespace LaravelEnso\Helpers\Services;
 
 class PriceComputor
 {
-    private string $price;
     private string $vatPercent;
     private int $quantity;
     private string $discountPercent;
     private int $precision;
 
-    public function __construct(string $price)
+    public function __construct(private readonly string $price)
     {
-        $this->price = $price;
         $this->quantity = 1;
         $this->vatPercent = 0;
         $this->discountPercent = 0;
