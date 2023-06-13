@@ -11,10 +11,10 @@ use LaravelEnso\Helpers\Exceptions\JsonParse;
 class JsonReader
 {
     private const Formats = ['object', 'array', 'json', 'collection', 'obj'];
-    private readonly bool $array;
-    private readonly bool $json;
-    private readonly bool $collection;
-    private readonly bool $obj;
+    private bool $array;
+    private bool $json;
+    private bool $collection;
+    private bool $obj;
 
     public function __construct(private readonly string $path)
     {
