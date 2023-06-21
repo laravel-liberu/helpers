@@ -62,7 +62,7 @@ class JsonReader
     {
         $json = $this->content();
 
-        $data = json_decode($json, $this->shouldDecodeToArray(), 512, JSON_THROW_ON_ERROR);
+        $data = json_decode($json, $this->shouldDecodeToArray());
 
         $this->validate();
 
