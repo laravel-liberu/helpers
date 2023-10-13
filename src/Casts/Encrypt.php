@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Helpers\Casts;
+namespace LaravelLiberu\Helpers\Casts;
 
 use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
 use Illuminate\Contracts\Encryption\DecryptException;

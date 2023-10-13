@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Helpers\Casts;
+namespace LaravelLiberu\Helpers\Casts;
 
 use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
-use LaravelEnso\Helpers\Services\Obj as Service;
+use LaravelLiberu\Helpers\Services\Obj as Service;
 
 class Obj implements CastsAttributes
 {

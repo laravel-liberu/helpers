@@ -22,13 +22,13 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelEnso\\Helpers\\": "src/"
+            "LaravelLiberu\\Helpers\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "aliases": {
-                "EnsoException": "LaravelEnso\\Helpers\\Exceptions\\EnsoException"
+                "EnsoException": "LaravelLiberu\\Helpers\\Exceptions\\EnsoException"
             }
         }
     },

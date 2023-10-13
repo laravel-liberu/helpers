@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Helpers\Traits;
+namespace LaravelLiberu\Helpers\Traits;
 
 use Closure;
 

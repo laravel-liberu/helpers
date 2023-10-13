@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Helpers\Traits;
+namespace LaravelLiberu\Helpers\Traits;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Helpers\Exceptions\InCents as Exception;
-use LaravelEnso\Helpers\Services\Decimals;
+use LaravelLiberu\Helpers\Exceptions\InCents as Exception;
+use LaravelLiberu\Helpers\Services\Decimals;
 
 trait InCents
 {

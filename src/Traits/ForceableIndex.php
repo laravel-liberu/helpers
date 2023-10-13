@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Helpers\Traits;
+namespace LaravelLiberu\Helpers\Traits;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\DB;

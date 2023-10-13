@@ -2,8 +2,8 @@
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Schema;
-use LaravelEnso\Helpers\Exceptions\InCents as Exception;
-use LaravelEnso\Helpers\Traits\InCents;
+use LaravelLiberu\Helpers\Exceptions\InCents as Exception;
+use LaravelLiberu\Helpers\Traits\InCents;
 use Tests\TestCase;
 
 class InCentsTest extends TestCase

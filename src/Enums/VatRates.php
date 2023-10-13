@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\Helpers\Enums;
+namespace LaravelLiberu\Helpers\Enums;
 
-use LaravelEnso\Enums\Services\Enum;
+use LaravelLiberu\Enums\Services\Enum;
 
 class VatRates extends Enum
 {

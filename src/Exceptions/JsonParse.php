@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Helpers\Exceptions;
+namespace LaravelLiberu\Helpers\Exceptions;
 
 class JsonParse extends EnsoException
 {

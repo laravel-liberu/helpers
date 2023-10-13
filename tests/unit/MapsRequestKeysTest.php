@@ -1,6 +1,6 @@
 <?php
 
-use LaravelEnso\Helpers\Traits\MapsRequestKeys;
+use LaravelLiberu\Helpers\Traits\MapsRequestKeys;
 use Tests\TestCase;
 
 class MapsRequestKeysTest extends TestCase

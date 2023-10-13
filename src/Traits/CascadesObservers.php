@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Helpers\Traits;
+namespace LaravelLiberu\Helpers\Traits;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;

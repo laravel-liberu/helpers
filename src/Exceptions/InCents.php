@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Helpers\Exceptions;
+namespace LaravelLiberu\Helpers\Exceptions;
 
 use LogicException;
 

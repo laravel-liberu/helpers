@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Helpers\Services\OptimalChunk;
+use LaravelLiberu\Helpers\Services\OptimalChunk;
 use Tests\TestCase;
 
 class OptimalChunkTest extends TestCase
