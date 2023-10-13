@@ -4,7 +4,7 @@ namespace LaravelLiberu\Helpers\Exceptions;
 
 use Exception;
 
-class EnsoException extends Exception
+class LiberuException extends Exception
 {
     public function __construct(string $message, int $code = 488)
     {
