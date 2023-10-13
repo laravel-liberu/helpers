@@ -1,14 +1,14 @@
 # Helpers
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/a7b6163dff4943c68f3df62ff473f208)](https://www.codacy.com/gh/laravel-enso/helpers?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/helpers&amp;utm_campaign=Badge_Grade) 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/a7b6163dff4943c68f3df62ff473f208)](https://www.codacy.com/gh/laravel-liberu/helpers?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/helpers&amp;utm_campaign=Badge_Grade) 
 [![StyleCI](https://github.styleci.io/repos/85466970/shield?branch=master)](https://github.styleci.io/repos/85466970)
-[![License](https://poser.pugx.org/laravel-enso/helpers/license)](https://packagist.org/packages/laravel-enso/helpers)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/helpers/downloads)](https://packagist.org/packages/laravel-enso/helpers)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/helpers/version)](https://packagist.org/packages/laravel-enso/helpers)
+[![License](https://poser.pugx.org/laravel-liberu/helpers/license)](https://packagist.org/packages/laravel-liberu/helpers)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/helpers/downloads)](https://packagist.org/packages/laravel-liberu/helpers)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/helpers/version)](https://packagist.org/packages/laravel-liberu/helpers)
 
-Helper classes dependency for [Laravel Liberu](https://github.com/laravel-enso/Liberu).
+Helper classes dependency for [Laravel Liberu](https://github.com/laravel-liberu/Liberu).
 
-This package can work independently of the [Liberu](https://github.com/laravel-enso/Liberu) ecosystem.
+This package can work independently of the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
