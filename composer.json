@@ -1,6 +1,6 @@
 {
     "name": "laravel-liberu/helpers",
-    "description": "Helper classes dependency for Laravel Enso",
+    "description": "Helper classes dependency for Laravel Liberu",
     "keywords": [
         "laravel-liberu",
         "helpers"
@@ -28,7 +28,7 @@
     "extra": {
         "laravel": {
             "aliases": {
-                "EnsoException": "LaravelLiberu\\Helpers\\Exceptions\\EnsoException"
+                "LiberuException": "LaravelLiberu\\Helpers\\Exceptions\\LiberuException"
             }
         }
     },

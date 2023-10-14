@@ -2,7 +2,7 @@
 
 namespace LaravelLiberu\Helpers\Exceptions;
 
-class JsonParse extends EnsoException
+class JsonParse extends LiberuException
 {
     public static function fileNotFound(string $filename)
     {
